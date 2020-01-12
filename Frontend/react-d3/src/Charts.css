@@ -1,6 +1,9 @@
 .Charts {
     background-color: red;
     width: 100%;
-
     align-self: center;
+}
+
+.barChart1{
+    background-color: black;
 }

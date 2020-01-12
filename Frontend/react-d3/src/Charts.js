@@ -15,7 +15,7 @@ class Charts extends Component {
         return (
             <div className="Charts">
                 <div className="barChart">
-                    <BarChart 
+                    <BarChart
                         data={this.state.data} 
                         width={this.state.width} 
                         height={this.state.height} 

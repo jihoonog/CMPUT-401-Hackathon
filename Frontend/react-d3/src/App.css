@@ -32,9 +32,10 @@ span {
 
 }
 
-.leftContainer{
+.Container{
   margin: 30px 10px 10px 10px;
-  height: 80vh;
+  right:0vh;
+  float:left;
   width: 50vh;
   background-color: lightgray;
   box-shadow: -5px 10px;
@@ -43,4 +44,23 @@ span {
 
 .ingredientTitle{
   text-align: center;
+}
+
+.checkBox_list{
+  list-style-type: none;
+}
+
+.minMax{
+  text-align: center;
+}
+
+.rightContainer{
+  background-color: red;
+  margin: 30px 10px 10px 10px;
+  right: 10px;
+  box-shadow: -5px 10px;
+}
+.chart{
+  width: 100%;
+ background-color: red;
 }

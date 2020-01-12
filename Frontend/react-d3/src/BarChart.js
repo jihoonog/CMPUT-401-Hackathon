@@ -1,5 +1,6 @@
 import React from 'react';
 import * as d3 from 'd3';
+import './Charts.css'
 
 class BarChart extends React.Component {
     componentDidMount() {
@@ -36,7 +37,7 @@ class BarChart extends React.Component {
     }
 
     render() {
-        return <div id={"#" + this.props.id}></div>
+        return <div className="barChart1"></div>
     }
 
 }
