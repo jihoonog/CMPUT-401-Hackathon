@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import Charts from './Charts';
+import ListComponent from './List';
 
 function App() {
   return (
     <div className="App">
-
       <div className="header">
         <img src="./food-flat.png"></img>
         <span>Recipe Gang</span>
@@ -19,8 +19,8 @@ function App() {
       <div className="chart">
         <Charts/>
       </div>
-      
       {/*<Charts/>*/}
+      <ListComponent/>
     </div>
   );
 }
