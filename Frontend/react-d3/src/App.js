@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Charts from './Charts';
+import ListComponent from './List';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <h3>Recipe Gang</h3>
       </header>
       <Charts/>
+      <ListComponent/>
     </div>
   );
 }
