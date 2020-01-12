@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './List.css';
 
 class ListComponent extends Component {
 
@@ -23,8 +24,8 @@ class ListComponent extends Component {
 
   render() {
     return (
-      this.state.articles.map(row => <div key={row._id}>{row.title}</div>)
-                              //modify row.title to row.< >
+      this.state.articles.map(row => <div className="ListComponent" key={row._id}>{row.title}</div>)
+                              //modify row.title to row.<xxx>
     )
   }
 }

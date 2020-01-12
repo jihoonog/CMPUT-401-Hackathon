@@ -7,7 +7,7 @@ function List() {
 
     const itemList = items.map(item =>
         {
-            return <div className="list" key="item.key">
+            return <div className="ListComponent" key="item.key">
                 <h2>{item}</h2>
             </div>
         })
