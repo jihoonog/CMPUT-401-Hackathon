@@ -5,17 +5,15 @@ import BarChart from './BarChart';
 class Charts extends Component {
     state = {
         data: [12, 5, 6, 6, 9, 10],
-        width: 1000,
-        height: 500,
+        width: 500,
+        left: 500,
+        height: 200,
         id: "root"
     }
 
     render() {
         return (
             <div className="Charts">
-                <div className="lineChart">
-                    <p>Line Chart</p>
-                </div>
                 <div className="barChart">
                     <BarChart 
                         data={this.state.data} 

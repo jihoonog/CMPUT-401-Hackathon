@@ -1,3 +1,7 @@
-.barChart {
+.Charts {
+    background-color: red;
+    width: 100%;
+
     align-self: center;
+    left: 500px;
 }

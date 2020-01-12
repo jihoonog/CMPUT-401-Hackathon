@@ -5,11 +5,22 @@ import Charts from './Charts';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src='food-flat.png' width='60'/>
-        <h3>Recipe Gang</h3>
-      </header>
-      <Charts/>
+
+      <div className="header">
+        <img src="./food-flat.png"></img>
+        <span>Recipe Gang</span>
+      </div>
+
+      <div className="leftContainer">
+        <h1 className="ingredientTitle">Ingredient</h1>
+        
+    
+      </div>
+      <div className="chart">
+        <Charts/>
+      </div>
+      
+      {/*<Charts/>*/}
     </div>
   );
 }

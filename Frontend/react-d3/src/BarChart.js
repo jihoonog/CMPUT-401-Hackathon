@@ -22,7 +22,7 @@ class BarChart extends React.Component {
             .attr("y", (d, i) => h - 10 * d)
             .attr("width", 65)
             .attr("height", (d, i) => d * 10)
-            .attr("fill", "green")
+            .attr("fill", "red")
 
         svg.selectAll("text")
             .data(data)
