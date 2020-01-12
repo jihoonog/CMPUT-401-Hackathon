@@ -54,8 +54,7 @@ span {
   text-align: center;
 }
 
-
-.chart{
-  width: 100%;
- background-color: red;
+input {
+  margin-right: 10px;
+  
 }

@@ -14,11 +14,11 @@ function App() {
       <div className="leftContainer">
         <h1 className="ingredientTitle">Ingredient</h1>
         <ul className="checkBox_list">
-          <li><input type="radio" name="radAnswer" />Fat</li>
-          <li><input type="radio" name="radAnswer"/>Protein</li>
-          <li><input type="radio" name="radAnswer"/>Calories</li>
-          <li><input type="radio" name="radAnswer"/>Carbohydrates</li>
-          <li><input type="radio" name="radAnswer"/>Sodium</li>
+          <li><input className="checkbox" type="radio" name="radAnswer" />Fat</li>
+          <li><input className="checkbox" type="radio" name="radAnswer"/>Protein</li>
+          <li><input className="checkbox" type="radio" name="radAnswer"/>Calories</li>
+          <li><input className="checkbox"type="radio" name="radAnswer"/>Carbohydrates</li>
+          <li><input className="checkbox" type="radio" name="radAnswer"/>Sodium</li>
         </ul>
 
         <h1 className="minMax"> Top 10</h1>
