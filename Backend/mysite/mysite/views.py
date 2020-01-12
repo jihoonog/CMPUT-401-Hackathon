@@ -53,6 +53,8 @@ def pruneNull(recipes, nutrition):
   for recipe in recipes:
     if nutrition is "carbohydrates":
       recipe = addCarb(recipe)
+      pruned.append(recipe)
+      continue
     if recipe.get(nutrition, None) is None:
       continue
     pruned.append(recipe)
