@@ -28,13 +28,7 @@ function App() {
         </ul>
 
       </div>
-      <div className="rightContainer">
-        <div className="chart">
-          <Charts/>
-        </div>
-      </div>
-      {/*<Charts/>*/}
-      {/*<ListComponent/>*/}
+
     </div>
   );
 }

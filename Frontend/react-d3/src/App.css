@@ -32,7 +32,7 @@ span {
 
 }
 
-.Container{
+.leftContainer{
   margin: 30px 10px 10px 10px;
   right:0vh;
   float:left;
@@ -54,12 +54,7 @@ span {
   text-align: center;
 }
 
-.rightContainer{
-  background-color: red;
-  margin: 30px 10px 10px 10px;
-  right: 10px;
-  box-shadow: -5px 10px;
-}
+
 .chart{
   width: 100%;
  background-color: red;
